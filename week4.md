@@ -2,6 +2,11 @@
 
 This week, we’ll dive into one of the most fundamental tools in data visualization: **bar graphs**. For a deeper understanding of the concepts covered, you can explore [Chapter 6: Visualizing Amounts](https://clauswilke.com/dataviz/visualizing-amounts.html) by Claus Wilke.
 
+_____
+Note: In class, we talked about the [door study](https://youtu.be/FWSxSQsspiQ?si=Yp61VU_j5TDxmF-U) , which shows how people often miss big changes when distracted. This connects to data visualization and communication because if our visuals aren’t clear, the audience might overlook key insights—just like missing the person switch in the study. To read more about this, check Chapter 1: Visual Queries in Visual Thinking for Design by Colin Ware.
+
+
+
 Bar graphs are a versatile tool for comparing numerical values across different categories. Whether you're visualizing simple comparisons, part-to-whole relationships, or complex multi-variable datasets, bar graphs offer a straightforward and effective way to present your data.
 
 ## Types of Bar Graphs We’ll Cover:

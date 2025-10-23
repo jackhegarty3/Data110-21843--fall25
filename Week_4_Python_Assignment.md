@@ -1,6 +1,4 @@
-# Crime Data Visualization (2022-2023)
-
-
+# Week 4 Assinment: Crime Data Visualization (2022-2023)
 
 In this assignment, we will analyze real-world crime data from 2022 to 2023, sourced from the **FBI's Crime Data** as reported by the Brennan Center. According to the Brennan Center’s analysis, most crimes, including murder, have seen significant drops in 2023.
 
@@ -17,7 +15,6 @@ Source: [FBI Data Confirms Drop in Most Crimes in 2023, Especially Murders](http
 | Murder                        | 5.7                                    | -12.0                                                 |
 | Rape (revised definition)     | 38.0                                   | -9.8                                                  |
 | Robbery                       | 66.5                                   | -0.8                                                  |
-
 
 ---
 
@@ -51,18 +48,21 @@ In this task, you will create a **horizontal bar chart** that visualizes the **p
    - Experiment with different color schemes, labels, and gridlines.
    - In each iteration, focus on improving the ease with which someone can quickly understand the trends in crime rates.
 
+---
 
-## Optional Task: Combined Bar Chart for Crime Rates in 2022 and 2023
+## Task 3: Multi-Series (Grouped) Bar Chart with Fake Data
 
-In this optional task, you will create a **combined bar chart** that shows the crime rates for both **2022 and 2023**. 
+In this task, you will practice making a **multi-series grouped bar chart** using a simple, fake dataset.  
+Imagine three companies (**Company A, Company B, Company C**) that each sell three products (**Product 1, Product 2, Product 3**).
 
 ### Instructions:
-- Calculate the **crime rates for 2022** based on the 2023 values and the percentage changes provided.
-- Create a **combined bar chart** that compares the crime rates for 2022 and 2023 for each offense type.
-- Use different colors to distinguish between the years 2022 and 2023.
-- Label the axes and add a title.
-- Add a legend to indicate which bars represent which year.
+- Create a dataset with sales values for each company’s three products.
+- Plot a grouped bar chart with **3 bars per company** (Product 1, Product 2, Product 3).
+- Add labels, a title, and a legend.
 
-### Remark:
-- You are required to complete this task in **Google Colab**. Name your file **Data110_YourName_Week4**. 
-- When submitting your assignment, upload your code, calculations, and final bar chart in the Google Colab Notebook.
+💡 Example structure for your dataset:
+```python
+companies = ["Company A", "Company B", "Company C"]
+product1 = [20, 34, 30]
+product2 = [25, 32, 34]
+product3 = [30, 35, 27]
